@@ -19,6 +19,7 @@ namespace XlzCompareTool
     {
         public static void Script(string inputFile, string correlatedFile,StringDictionary context)
         {
+            Console.WriteLine("line added in feature2 branch");
             Xlz FirstFile = new Xlz(inputFile);
             Xlz SecondFile = new Xlz(correlatedFile);
           List<ComparisonResult>Results= CompareXlfDocuments(FirstFile.contentDocument, SecondFile.contentDocument);
