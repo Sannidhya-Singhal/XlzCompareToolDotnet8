@@ -14,6 +14,8 @@
             Console.WriteLine("14th line in master branch");
             Console.WriteLine("15th line in feature3 branch");
             Console.WriteLine("15th line in feature4 branch");
+            Console.WriteLine("16th line in master branch");
+            Console.WriteLine("17th line in master branch");
         }
     }
 }
