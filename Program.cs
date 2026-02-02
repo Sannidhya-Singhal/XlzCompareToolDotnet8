@@ -8,6 +8,14 @@
             string correlatedFile = @"C:\Users\v-Sannidhya.Singhal\Documents\srs-reports-XLF-de-DE#CVMXBGoutput#.yml.txlf.xlz";
             XlzCompare.Script(inputFile, correlatedFile, null);
             Console.WriteLine("10th line added in feature1 branch");
+            Console.WriteLine("11th line in master branch");
+            Console.WriteLine("12th line in master branch");
+            Console.WriteLine("13th line in master branch");
+            Console.WriteLine("14th line in master branch");
+            Console.WriteLine("15th line in feature3 branch");
+            Console.WriteLine("15th line in feature4 branch");
+            Console.WriteLine("16th line in master branch");
+            Console.WriteLine("17th line in master branch");
         }
     }
 }
